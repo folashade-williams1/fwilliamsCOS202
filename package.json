@@ -1,0 +1,24 @@
+{
+    "name": "task-manager",
+    "version": "1.0.0",
+    "description": "Modern JavaScript Task Manager CLI",
+    "main": "src/index.js",
+    "type": "module",
+    "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": ["cli", "task-manager", "es6"],
+    "author": "Williams Folshade",
+    "license": "MIT",
+    "dependencies": {
+    "chalk": "^5.0.1",
+    "inquirer": "^9.0.0",
+    "nanoid": "^4.0.0"
+    },
+    "devDependencies": {
+    "nodemon": "^2.0.19"
+    }
+    }
+    

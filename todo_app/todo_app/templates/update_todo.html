@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Update Todo</title>
+</head>
+<body>
+    <h2>Update Todo</h2>
+    <form action="/update/{{ todo.id }}" method="post">
+        <input type="text" name="title" value="{{ todo.title }}" required>
+        <textarea name="description" rows="4">{{ todo.description }}</textarea>
+        <button type="submit">Update</button>
+    </form>
+    <a href="/">Back to Todos</a>
+</body>
+</html>

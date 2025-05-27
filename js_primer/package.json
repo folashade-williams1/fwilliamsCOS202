@@ -1,0 +1,16 @@
+{
+  "name": "js_primer",
+  "version": "0.0.1",
+  "description": "Learning Js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "javascript",
+    "pau"
+  ],
+  "author": "Folashade Williams",
+  "license": "MIT"
+}
